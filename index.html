@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemivia Bakery | Luxury Bites & Cakes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Lemivia Bakery home">
+        <img src="images/logo-transparent.png" alt="Lemivia Bakery logo" />
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#choose">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Premium handmade bakery</p>
+          <h1>Lemivia Bakery</h1>
+          <p>
+            Classic pastries, celebratory cakes, and refined dessert bites made
+            for moments that deserve a beautiful table. Every order is prepared
+            with warm detail, elegant presentation, and the kind of flavor that
+            makes guests pause after the first bite.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#products">Explore treats</a>
+            <a class="btn ghost" data-whatsapp-link href="#">Order on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="hero-showcase" aria-label="Featured bakery products">
+          <div class="orbit-card orbit-one">
+            <img src="images/cake.jpg" alt="Luxury Lemivia cake" />
+          </div>
+          <div class="orbit-card orbit-two">
+            <img src="images/bites-box.jpg" alt="Elegant bites box" />
+          </div>
+          <div class="orbit-card orbit-three">
+            <img src="images/cupcakes.jpg" alt="Gift box cupcakes" />
+          </div>
+          <div class="orbit-card orbit-four">
+            <img src="images/cookies.jpg" alt="Lemivia cookies" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-band" id="about">
+        <div class="about-image reveal">
+          <img src="images/bites-plate.jpg" alt="A premium plate of Lemivia bites" />
+        </div>
+        <div class="section-copy reveal">
+          <p class="eyebrow">About us</p>
+          <h2>Where soft sweetness meets polished presentation.</h2>
+          <p>
+            Lemivia Bakery creates treats that feel personal, graceful, and
+            deliciously memorable. From intimate family orders to styled party
+            trays, each bake is planned with balance: rich taste, neat finishing,
+            and packaging that arrives ready to impress.
+          </p>
+          <p>
+            Our kitchen celebrates classic bakery comfort with a luxury touch,
+            giving you cakes, bites, cookies, breads, and cupcakes that look as
+            special as the occasion they are made for.
+          </p>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Our collection</p>
+          <h2>Signature Products</h2>
+        </div>
+        <div class="product-grid" data-products></div>
+      </section>
+
+      <section class="why section-band" id="choose">
+        <div class="section-copy reveal">
+          <p class="eyebrow">Why choose us</p>
+          <h2>Luxury that tastes homemade, with service that feels effortless.</h2>
+          <div class="reasons">
+            <article>
+              <span>01</span>
+              <h3>Elegant presentation</h3>
+              <p>Every piece is arranged to look premium before the box is even opened.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Fresh quality</h3>
+              <p>Soft textures, careful baking, and balanced sweetness guide each order.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Made for occasions</h3>
+              <p>From gifts to events, our treats arrive ready for beautiful celebrations.</p>
+            </article>
+          </div>
+        </div>
+        <div class="why-image reveal">
+          <img src="images/chocolate-cake.jpg" alt="Chocolate cake chosen as a feature product" />
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Visit and order</p>
+          <h2>Contact Lemivia Bakery</h2>
+        </div>
+        <div class="contact-grid reveal">
+          <a class="contact-card" data-whatsapp-link href="#">
+            <span>WhatsApp</span>
+            <strong data-contact-phone>Update phone number</strong>
+          </a>
+          <a class="contact-card" data-instagram-link href="#" target="_blank" rel="noreferrer">
+            <span>Instagram</span>
+            <strong data-contact-instagram>@lemivia_bakery</strong>
+          </a>
+          <article class="contact-card">
+            <span>Location</span>
+            <strong data-contact-address>Update bakery address</strong>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <a class="floating-whatsapp" data-whatsapp-link href="#" aria-label="Chat on WhatsApp">
+      WhatsApp
+    </a>
+
+    <footer>
+      <p>© <span data-year></span> Lemivia Bakery. Crafted with sweetness and style.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
